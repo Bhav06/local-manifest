@@ -2,9 +2,9 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/Redmi5Plus/G" name="Bhav/android_device_Redmi5Plus_G.git" remote="github" revision="lineage-18.1" />
+ <project path="device/Redmi5Plus/vince" name="Bhav/android_device_Redmi5Plus_vince.git" remote="github" revision="lineage-18.1" />
  <project path="device/Redmi5Plus/msm8953-common" name="Bhav/android_device_Redmi5Plus_msm8953-common.git" remote="github" revision="lineage-18.1" />
  <project path="vendor/Redmi5Plus" name="Bhav/android_vendor_Redmi5Plus.git" remote="github" revision="master" />
- <project path="kernel/Redmi5Plus/G" name="Redmi5PlusDevs/android_kernel_Redmi5Plus_G-4.9.git" remote="github" revision="lineage-18.1" />
+ <project path="kernel/Redmi5Plus/vince" name="Redmi5PlusDevs/android_kernel_Redmi5Plus_vince-4.9.git" remote="github" revision="lineage-18.1" />
  
 </manifest>
