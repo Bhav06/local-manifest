@@ -10,7 +10,7 @@
 
 
  <!-- Trees -->
- <project path="device/xiaomi/vince" name="Bhav/android_device_xiaomi_vince.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/xiaomi" name="Bhav/android_vendor_xiaomi.git" remote="github" revision="master" />
+ <project path="device/xiaomi/vince" name="Bhav/android_device_xiaomi_vince.git" remote="Bhav06" revision="lineage-18.1" />
+ <project path="vendor/xiaomi/vince" name="Bhav/android_vendor_xiaomi.git" remote="Bhav06" revision="master" />
  <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1"
 </manifest>
