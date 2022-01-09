@@ -11,7 +11,7 @@
 		fetch="https://github.com/kdrag0n" />
 
 	
-
+        <!-- Trees -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Bhav" revision="lineage-18.1" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Bhav" revision="eleven" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
