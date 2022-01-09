@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="Bhav"
+		fetch="https://github.com/Bhav06" />
+	
+	<remote name="BlackSuan"
+		fetch="https://github.com/Blacksuan19" />
+	
+	<remote name="clang"
+		fetch="https://github.com/kdrag0n" />
+
+	
+
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Bhav" revision="lineage-18.1" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Bhav" revision="eleven" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />	
+
+	
+</manifest>
