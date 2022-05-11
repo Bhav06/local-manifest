@@ -2,20 +2,30 @@
 <manifest>
 
 	<remote name="Bhav"
-		fetch="https://github.com/Bhav06" />
-	
-	<remote name="BlackSuan"
-		fetch="https://github.com/Blacksuan19" />
-	
-	<remote name="clang"
-		fetch="https://github.com/kdrag0n" />
+	        fetch="https://github.com/Bhav06" />   
 
+	<remote name="pe"
+	        fetch="https://github.com/PixelExperience" />
 	
-        <!-- Trees -->
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Bhav" revision="lineage-18.1" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Bhav" revision="eleven" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />	
+        <remote  name="Addy"
+                fetch="https://github.com/adnan-44" />
+
+        <remote  name="Uni"
+                fetch="https://github.com/GhostMaster69-dev" />
+
+        <remote name="clang"
+	        fetch="https://github.com/kdrag0n" />
+
+        <remote name="Starlight"
+	        fetch="https://github.com/starlight5234" />
+
+        <remote name="DA"
+	        fetch="https://github.com/Blacksuan19" />
+
+        <!-- Toolchain -->
+         <remote name="cosmic"
+	 fetch="https://gitlab.com/GhostMaster69-dev"
+	 revision="master" />	
 
 	
 </manifest>
