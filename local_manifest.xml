@@ -28,8 +28,8 @@
 	 revision="master" />	
 
         <!-- Trees -->
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Bhav" revision="12" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Bhav" revision="12" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Bhav" revision="twelve" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Bhav" revision="twelve" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" clone-depth="1" />
        	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" clone-depth="1" />
 
