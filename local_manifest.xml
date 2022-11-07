@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="Bhav"
+	<remote name="me"
 	        fetch="https://github.com/Bhav06" />   
 
 	<remote name="pe"
 	        fetch="https://github.com/PixelExperience" />
-	
-        <remote  name="Addy"
-                fetch="https://github.com/adnan-44" />
-
-        <remote  name="Uni"
-                fetch="https://github.com/GhostMaster69-dev" />
 
         <remote name="clang"
 	        fetch="https://github.com/kdrag0n" />
 
-        <remote name="Starlight"
-	        fetch="https://github.com/starlight5234" />
-
-        <remote name="DA"
-	        fetch="https://github.com/Blacksuan19" />
-
-        <!-- Toolchain -->
          <remote name="cosmic"
 	 fetch="https://gitlab.com/GhostMaster69-dev"
 	 revision="master" />	
 
         <!-- Trees -->
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Bhav" revision="twelve" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Bhav" revision="twelve" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" clone-depth="1" />
-       	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" clone-depth="1" />
+        <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="me" revision="arrow-13.0"/>
+        <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="me" revision="thirteen"/>
+        <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="pe" revision="thirteen"/>
+        <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="me" revision="arrow-13.0"/>
+
+        <!-- Extra -->
+        <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pe" revision="thirteen"/>
+        <project path="hardware/mediatek" name="hardware_mediatek" remote="pe" revision="thirteen"/>
 
 </manifest>
